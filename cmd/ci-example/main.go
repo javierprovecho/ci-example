@@ -25,7 +25,7 @@ func createRouter() (r *gin.Engine) {
 	r = gin.Default()
 
 	r.GET("/", func(c *gin.Context) {
-		c.String(200, "Hello world!")
+		c.String(200, "Hola Cylicon Valley!")
 	})
 
 	return
