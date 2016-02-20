@@ -1,0 +1,44 @@
+{
+	"ImportPath": "github.com/javierprovecho/ci-example",
+	"GoVersion": "go1.5",
+	"Packages": [
+		"./cmd/..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/davecgh/go-spew/spew",
+			"Rev": "3e6e67c4dcea3ac2f25fd4731abc0e1deaf36216"
+		},
+		{
+			"ImportPath": "github.com/gin-gonic/gin",
+			"Comment": "v1.0rc1-225-gb3878c2",
+			"Rev": "b3878c2465f34fa1772f666fea9adf05f1dca727"
+		},
+		{
+			"ImportPath": "github.com/golang/protobuf/proto",
+			"Rev": "127091107ff5f822298f1faa7487ffcf578adcf6"
+		},
+		{
+			"ImportPath": "github.com/manucorporat/sse",
+			"Rev": "ee05b128a739a0fb76c7ebd3ae4810c1de808d6d"
+		},
+		{
+			"ImportPath": "github.com/pmezard/go-difflib/difflib",
+			"Rev": "d8ed2627bdf02c080bf22230dbb337003b7aba2d"
+		},
+		{
+			"ImportPath": "github.com/stretchr/testify/assert",
+			"Comment": "v1.0-88-ge3a8ff8",
+			"Rev": "e3a8ff8ce36581f87a15341206f205b1da467059"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "b6d7b1396ec874c3b00f6c84cd4301a17c56c8ed"
+		},
+		{
+			"ImportPath": "gopkg.in/go-playground/validator.v8",
+			"Comment": "v8.17",
+			"Rev": "f38559b4893a333e7122cf42155be352c9b5d7c6"
+		}
+	]
+}

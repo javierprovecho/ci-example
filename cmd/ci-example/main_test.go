@@ -3,8 +3,8 @@ package main
 import (
 	"testing"
 
-	"github.com/gin-gonic/gin"
-	"github.com/stretchr/testify/assert"
+	"github.com/javierprovecho/ci-example/Godeps/_workspace/src/github.com/gin-gonic/gin"
+	"github.com/javierprovecho/ci-example/Godeps/_workspace/src/github.com/stretchr/testify/assert"
 )
 
 func TestCatsAndDogs(t *testing.T) {

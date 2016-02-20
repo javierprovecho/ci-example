@@ -2,3 +2,5 @@ language: go
 sudo: false
 go:
   - 1.5.3
+
+before_script: cd cmd/ci-example
