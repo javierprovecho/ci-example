@@ -2,7 +2,7 @@ package main
 
 import "github.com/gin-gonic/gin"
 
-const cats = true
+const cats = false
 const dogs = true
 
 func main() {
